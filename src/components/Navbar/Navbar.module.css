@@ -1,0 +1,18 @@
+.titulo{
+    color: white;
+    background-color:blueviolet ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    margin: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-color: white;
+}
