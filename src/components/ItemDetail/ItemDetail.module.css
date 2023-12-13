@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 40%;
+}
+
+.description{
+    font-style: italic;
+    padding: 30px;
+}
+
+.p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.descriptionContainer{
+    background-color:khaki;
+    margin: 5%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}

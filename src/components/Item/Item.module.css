@@ -1,0 +1,27 @@
+.img{
+    width: 30%;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.itemContainer{
+    background-color:gainsboro;
+    margin: 20px;
+}
+
+.detail{
+    text-align: center;
+}
+

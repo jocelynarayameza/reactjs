@@ -3,8 +3,8 @@ import classes from './CartWidget.module.css'
 
 const CartWidget = () => {
     return (
-        <div>
-            <button className='btn btn-info padding-xs-horizontal' >
+        <div className={classes.button}>
+            <button className='btn btn-info padding-xs-horizontal'>
             <img src={cart} alt="cart widget" width={"30px"}/>
             </button> 0
         </div>
