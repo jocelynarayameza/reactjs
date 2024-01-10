@@ -1,0 +1,29 @@
+.carrito{
+    text-align: center;
+    font-weight: 650;
+
+}
+
+.detail{
+    padding-top: 3%; padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dotted;
+    background-color:gainsboro;
+    margin-left: 10%; margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.total{
+    text-align: center;
+    padding: 1%;
+    border-style: dotted;
+     margin-left: 10%; margin-right: 10%; margin-bottom: 5%;
+    background-color: rgb(223, 179, 125);
+}
+
+.checkout{
+    display: flex;
+    justify-content:space-evenly;
+}

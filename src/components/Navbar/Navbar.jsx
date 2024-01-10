@@ -6,12 +6,12 @@ const Navbar = () => {
     return (
         <nav>
             <Link to='/'> 
-            <h1 className={classes.titulo}>E-commerce Videojuegos</h1>
+            <h1 className={classes.titulo}>Nous Jouons Games</h1>
             </Link>
             <section className={classes.navbar}>
                 <NavLink to={`/category/Playstation`} className={classes.buttons}>PS5</NavLink>
                 <NavLink to={`/category/Xbox`} className={classes.buttons}>Xbox One</NavLink>
-                <NavLink to={`/category/Wii`} className={classes.buttons}>Nintendo Switch</NavLink>
+                <NavLink to={`/category/Switch`} className={classes.buttons}>Nintendo Switch</NavLink>
             </section>
             <CartWidget />
         </nav>

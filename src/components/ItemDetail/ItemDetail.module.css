@@ -31,3 +31,9 @@
     -ms-border-radius: 5%;
     -o-border-radius: 5%;
 }
+
+.finishButton{
+    background-color: rgb(146, 68, 219);
+    color: aliceblue;
+   
+}
