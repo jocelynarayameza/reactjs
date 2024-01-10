@@ -1,12 +1,14 @@
 .label{ 
     padding: 10px;
     margin: 5px;
-
-
 }
 
 .input{
     padding: 10px;
     margin: 5px;
-    
+}
+
+.button{
+    background-color: rgb(146, 68, 219) ;
+    color: aliceblue;
 }

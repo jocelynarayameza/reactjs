@@ -15,7 +15,7 @@ console.log(userData)
         onConfirm(userData)
     }
  return (
-    <div className="Container">
+    <div>
         <form onSubmit={handleConfirm} className="Form"></form>
         
         <label className={classes.label}>Nombre:
@@ -31,7 +31,7 @@ console.log(userData)
         </label>
 
         <div className={classes.label}>
-            <button type='submit' className="button" onClick={handleConfirm} > Crear orden</button>
+            <button type='submit' className={classes.button} onClick={handleConfirm} > Crear orden</button>
         </div>
     </div>
  )
